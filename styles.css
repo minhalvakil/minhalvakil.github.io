@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+nav {
+    margin: 20px 0;
+}
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.portfolio-item {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 15px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+}
+.portfolio-item h3 {
+    padding: 15px;
+    font-size: 20px;
+}
+.portfolio-item p {
+    padding: 0 15px 15px;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

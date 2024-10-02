@@ -1,48 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Minhal Vakil</title>
-  <style>
-    div {
-      border: 1px solid black;
-      margin: 5px;
-      padding: 5px;
-    }
-    .foo {
-      width: 25px;
-      height: 25px;
-      background: red;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhal Vakil</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <h1>Minhal Vakil</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-<p id="p1">I am a paragraph</p>
-<p class="abc">I am another paragraph</p>
-<p class="abc" id="p3">I am a third paragraph</p>
+    <section id="about">
+        <div style="padding: 20px; text-align: center;">
+            <h1>About Me</h1>
+            <p>I am a fourth year Computer Science major with a Game Development Concentration at Drexel University. I have been working with the Unity game engine since 2020.</p>
+        </div>
+    </section>
 
-<div id="container">A
-  <div>B</div>
-  <div>C
-    <div>D</div>
-    <div>E</div>
-    <div>F
-      <div>G</div>
-    </div>
-  </div>
-</div>
+    <section id="portfolio">
+        <h2 style="text-align: center;">My Projects</h2>
+        <div class="portfolio">
+            <div class="portfolio-item">
+                <img src="game1.jpg" alt="Game 1">
+                <h3>Game Title 1</h3>
+                <p>A brief description of Game Title 1. Explore the exciting features and gameplay.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="game2.jpg" alt="Game 2">
+                <h3>Game Title 2</h3>
+                <p>A brief description of Game Title 2. Explore the exciting features and gameplay.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="game3.jpg" alt="Game 3">
+                <h3>Game Title 3</h3>
+                <p>A brief description of Game Title 3. Explore the exciting features and gameplay.</p>
+            </div>
+            <!-- Add more portfolio items as needed -->
+        </div>
+    </section>
 
-<button id="clicker">Click me</button>
-<div>Number of clicks: <span id="counter">0</span></div>
+    <section id="contact">
+        <div style="padding: 20px; text-align: center;">
+            <h2>Contact Me</h2>
+            <p>If you’d like to get in touch, feel free to reach out!</p>
+            <p>Email: <a href="mailto:minhal@vakil.ca">minhal@vakil.ca</a></p>
+        </div>
+    </section>
 
-<div id="appender">Append divs to me!</div>
-
-<script>
-
-
-</script>
-
+    <footer>
+        <p>&copy; 2024 My Unity Games Portfolio. All rights reserved.</p>
+    </footer>
 </body>
 </html>
