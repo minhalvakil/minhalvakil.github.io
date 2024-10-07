@@ -1,42 +1,46 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: system-ui;
     margin: 0;
     padding: 0;
-    background-color: #7b7b7b;
+    background-color: #2B2C28;
+    color: #7de2d1;
 }
 header {
-    background: #333;
-    color: #fff;
+    background: #131515;
+    color: #fffafb;
     padding: 20px 0;
     text-align: center;
 }
 section {
-    color: #fff;
+    color: #7de2d1;
 }
 
 nav {
     margin: 20px 0;
+    justify-content: left;
 }
 nav a {
-    color: #fff;
+    color: #339989;
     margin: 0 15px;
     text-decoration: none;
+    justify-content: left;
 }
 .portfolio {
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
 }
 .portfolio-item {
-    background: #fff;
+    background: #131515;
     border: 1px solid #ccc;
-    color: #333;
+    color: #7de2d1;
     border-radius: 8px;
-    margin: 15px;
-    width: 300px;
+    margin: 15px auto;
+    width: 300px auto;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     overflow: hidden;
+    height: auto;
 }
 .portfolio-item img {
     width: 100%;
@@ -45,6 +49,7 @@ nav a {
 .portfolio-item h3 {
     padding: 15px;
     font-size: 20px;
+    color: #339989;
 }
 .portfolio-item p {
     padding: 0 15px 15px;
@@ -57,4 +62,8 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+h1 {
+    font-size: 40px;
+    color: #339989;
 }
