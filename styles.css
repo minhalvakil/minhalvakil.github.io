@@ -43,13 +43,13 @@ nav a {
     height: auto;
 }
 .portfolio-item img {
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 .portfolio-item h3 {
     padding: 15px;
     font-size: 20px;
-    color: #339989;
+    color: #7de2d1;
 }
 .portfolio-item p {
     padding: 0 15px 15px;
@@ -65,5 +65,5 @@ footer {
 }
 h1 {
     font-size: 40px;
-    color: #339989;
+    color: #7de2d1;
 }
